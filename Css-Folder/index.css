@@ -1,0 +1,167 @@
+*{box-sizing: border-box;font-family: 'Roboto', sans-serif;}
+a{text-decoration: none !important;}
+ul{padding-left: 0px;margin-bottom: 0px;}
+header{padding: 5px 0px; }
+.Header-Left-Col .Logo a{display: inline-block;}
+.Header-Left-Col .Logo a img{max-width: 84px;width:100%;}
+.Header-Left-Col ul li,.Header-Right-Col ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 10px;position: relative;margin-left: 10px;}
+   .Header-Left-Col ul li a, .Header-Right-Col ul li a{color: #222328;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0px 4px;} 
+    .FlexClass{display: flex;align-items: center;}
+     .FlexClass .Logo{max-width: 84px;width: 100%;padding-right:20px;}
+.Header-Left-Col ul li.icon:before, .Header-Right-Col ul li.icon:before
+{position: absolute;
+    content: "";
+    top: 4px;
+    background-repeat: no-repeat;
+    height: 18px;
+    width: 20px;
+    left: -13px;}.Header-Left-Col ul li.icon:nth-child(1):before{
+
+    background-image: url(../Images-Folder/search.svg);
+    }
+    .Header-Left-Col ul li.icon:nth-child(3):before.{
+
+    background-image: url(../Images-Folder/user.svg);
+    }
+    .Header-Left-Col ul li.icon:nth-child(5):before{
+
+    background-image: url(../Images-Folder/solution.svg);  top: 2px;
+    }.Login-Container{
+    text-align: right;
+    margin: 15px 0px;
+    }.Header-Right-Col ul li{margin-left:0px }.Header-Right-Col ul li.icon:before {background-image: url(../Images-Folder/signup.svg);}
+.Banner{background-image: linear-gradient(180deg, #ffffff, #F7F7FA);padding: 50px 0px 0px;}
+.Banner-Container ul li{display: inline-block;list-style-type: none;    text-align: center;
+    margin: 0px 17px;}.Banner-Container ul{padding-bottom: 50px;}
+.Banner-Container ul li.box{max-width: 120px;width: 100%;padding: 5px;display: inline-block;list-style-type: none;}
+.Banner-Container ul li.box.active{border:1px solid #54B74C;border-radius:5px;}
+.box .Content{font-size:14px;line-height: 23px;font-weight: normal;
+letter-spacing: 0px;padding-top:10px;
+color: #2C3844;}.Banner-Container ul li.box.active .Content{color:#54B74C;}
+.borderLeft{border-left: 1px solid #515256;opacity: 0.27;}
+.box .Img{max-width: 34px;width: 100%;margin: 0 auto;}
+.Banner-Img{padding:260px 0px;background: url("../Images-Folder/Banner-img.png");background-position: center;background-size: 100%;background-repeat: no-repeat;}
+.Services{background: #fff;padding: 40px 0px;}
+.Details h5{color: #54B74C;
+text-transform: uppercase;font-size: 25px;line-height: 33px;font-weight: normal;}
+.Details h3{color: #38434F;font-weight:bold;font-size:50px;line-height:56px;position: relative;}
+.Details h3:before{position: ABSOLUTE;
+    content: "";left:-10px;
+    border: 6px solid #54B74C;
+    bottom: 10px;
+    width: 100%;
+    border-radius: 9px;
+    opacity: 0.2;
+    max-width: 350px;}
+    .Services-Img{    background: #54B74C;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0px 10px 15px #54B74C53;
+    vertical-align: top;
+    display: inline-block;
+    width: 32px;
+    height: 32px;position: relative;}
+
+.Service-Detail{    background: #FFFFFF;
+    box-shadow: 0px 11px 30px #00000014;
+    border-radius: 0px 0px 15px 15px;
+    padding: 15px;
+    display: inline-block;
+    max-width: 314px;
+    margin: 0px 10px;
+}
+.Service-Detail h6, .Deals-Content h6{color:#42495B;font-size: 23px;line-height:30px;font-weight: bold;}
+.Service-Detail p, .Deals-Content p{color:#42495B;font-size: 15px;line-height:23px;font-weight: normal;}
+.Service-Detail .cta{float:right;display: inline-block;padding: 7px 12px;font-size: 14px;line-height: 20px;background-color: #54B74C;color:#fff;}
+.Services-Img:before{
+  
+    background-size: 100%;
+    width: 18px;
+    height: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    content: "";
+    top:6px;
+    left: 8px;
+}
+ .Services-Img.Img1:before{background-image: url(../Images-Folder/service-phone.svg);}
+ .Services-Img.Img2:before{background-image: url(../Images-Folder/service-money.svg);}
+ .Services-Img.Img3:before{background-image: url(../Images-Folder/service-transfer.svg);}
+ .Services-Img.Img4:before{background-image: url(../Images-Folder/service-bill.svg);}  
+ .Services-Img.Img5:before{background-image: url(../Images-Folder/service-account.svg);}
+ .Services-Img.Img6:before{background-image: url(../Images-Folder/service-wallet.svg);}
+.Deals-Section{background-color: #fff;padding: 20px 0px;}
+.Deals-Section h3:before{    max-width: 530px;}
+.Deals-Section .Details p{color:#42495B;font-size: 20px;line-height: 26px;font-weight: normal;}
+.Deals-Section .Details h5{text-transform: capitalize;}
+.DealsImg{    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border: 1px solid #54B74C;
+    position: relative;
+    border-radius: 50px;}
+    .DealsImg img {
+    max-width: 18px;
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+.DealsImg.Img2{border: 1px solid #54B74C;background-color:#54B74C; }
+.Deals-Content a img{max-width: 7px;width: 100%;}
+    .Deals-Col{text-align: center;
+    max-width: 300px;
+    width: 100%;}
+    .Deals-Content p{margin-bottom:0px;}
+    .Deals-Section .FlexClass{justify-content: space-between;}
+    .Deals-Content a{display: inline-block;padding: 7px 0px;font-size: 14px;line-height: 20px;color: #54B74C;}
+.News-Section{padding: 20px 0px 50px;background:linear-gradient(180deg, #ffffff, #F7F7FA)}
+.News-Section .item h3{font-weight:500;font-size:24px;line-height: 30px;color:#42495B;text-align: center;}
+.News-Section .item p{font-weight:normal;font-size:21px;line-height: 27px;color:#42495B;text-align: center;}
+.News-Section .item h6{font-weight:normal;font-size:22px;line-height: 28px;color:#42495B;text-align: center;}
+.News-Section .Details h3{max-width: 320px;margin: 0 auto;}
+.owl-nav{display: none;}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{background:#54B74C !important;}
+.owl-theme .owl-dots .owl-dot span{background:transparent !important;border:1px solid #30333A;}
+footer{background-color: #30333A;padding: 40px 0px}
+footer ul li{padding:0px 10px;display: inline-block;list-style-type: none;color:#fff;font-size: 12px;line-height: 18px;font-weight: normal;}
+footer ul li:nth-child(1){padding-left: 0px;}
+footer ul li:last-child(){padding-right: 0px;}
+footer p{font-size: 12px;line-height: 18px;font-weight: normal;color:#fff;    margin-bottom: 0px;}
+.Banner-Container ul{    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;}
+
+@media(max-width: 1199px){.Service-Detail{max-width: 253px;}.Banner-Img {
+    padding: 260px 0px 180px;}}
+@media(max-width: 991px) {.Deals-Section { padding: 20px 0px 0px;
+}
+.News-Section {
+    padding: 0px 0px 50px;}.Service-Detail{max-width: 314px !important;}.Services .Details h3{margin-bottom: 30px;}
+.Deals-Section .Details h3{    max-width: 530px;
+    width: 100%;
+    margin: 0 auto;    margin-bottom: 20px;
+}.FlexClass{flex-direction: column;}.borderLeft{border: none;}.Banner-Img {
+    padding: 160px 0px;}.center{text-align: center;}.Details h3{max-width: 350px;width: 100%;margin: 0 auto;}
+    .Details h3:before{left:0px;}
+.Login-Container{text-align: center;}.Services .py-5, .pad0{padding-bottom: 5px !important;padding-top: 0px !important}
+.Service-container{padding-bottom:30px;}
+.Deals-Col{max-width: 100%;padding-bottom: 30px;}
+     footer ul{margin: 0 auto;
+    width: 100%;
+    max-width: 496px;}
+     .footercopy{text-align:center !important;padding-top:8px; }
+}
+@media(max-width: 767px) {.borderLeft{border: none;}.Banner-Img{padding: 100px 0px;}}
+@media(max-width: 767px) {.Details h5{    font-size: 15px;
+    line-height: 23px;}.Details h3{    font-size: 30px;
+    line-height: 40px;}.Details h3:before{max-width: 230px;border: 3px solid #54B74C;}}
